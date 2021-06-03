@@ -490,7 +490,7 @@ footer .copyright {
   }
 
   header figure {
-    width: 30%;
+    width: 34%;
   }
 
 header .content-wrapper {
@@ -609,11 +609,15 @@ header .content-wrapper {
   }
 
   header {
-    /* padding: 25px; */
+    padding: 15px 0;
   }
 
   header nav {
     /* width: 14%; */
+  }
+
+  header figure {
+    width: 30%;
   }
 
   /*-- Homepage --*/
