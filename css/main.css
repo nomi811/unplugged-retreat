@@ -267,6 +267,11 @@ input[type=button] {
   margin-bottom: 60px;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
@@ -331,6 +336,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  background-color: #527158;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -670,6 +683,11 @@ header .content-wrapper {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -710,8 +728,7 @@ header .content-wrapper {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
-    margin: 0;
+    width: 30%;
   }
 
   .form-description p {
@@ -752,6 +769,7 @@ header .content-wrapper {
   /*-- FAQ page --*/
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq h4, .faq p {
@@ -761,7 +779,7 @@ header .content-wrapper {
 
   /*-- Footer --*/
   footer h4 {
-    font-size: 1875em;
+    font-size: 1.875em;
   }
 }
 
